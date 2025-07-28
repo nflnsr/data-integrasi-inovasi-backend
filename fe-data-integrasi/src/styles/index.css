@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --header-height-sm: 140px;
+    --header-height-lg: 100px;
+    --footer-height: 80px;
+  }
+}
