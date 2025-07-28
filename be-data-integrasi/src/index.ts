@@ -17,10 +17,10 @@ app.use(
   })
 );
 
-app.options("*", cors({
-  origin: "https://test-data-integrasi-inovasi-fe.vercel.app",
-  credentials: true,
-})); 
+// app.options("*", cors({
+//   origin: "https://test-data-integrasi-inovasi-fe.vercel.app",
+//   credentials: true,
+// })); 
 
 app.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "https://test-data-integrasi-inovasi-fe.vercel.app");
